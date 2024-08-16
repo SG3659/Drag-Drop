@@ -14,7 +14,7 @@ const Arrow = ({ from, to }) => {
         top: 0,
         width: "100%",
         height: "100%",
-        zIndex: 0, // Ensure arrows are behind the cards
+        zIndex: 0, 
       }}
     >
       <line x1={x1} y1={y1} x2={x2} y2={y2} stroke="#333" strokeWidth="2" />

@@ -29,8 +29,8 @@ const Canvas = ({ onShowMore }) => {
   const dragHandler = (cardID, x, y) => {
     paticularCard(cardID, { x, y });
   };
-  const resizeHandler = (cardIDs, w, h) => {
-    paticularCard(cardIDs, { w, h });
+  const resizeHandler = (cardID, width, height) => {
+    paticularCard(cardID, { width, height });
   };
 
   return (
